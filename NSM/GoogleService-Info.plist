@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>687700381212-mjtdc5mvpr26l0tfftd5634sb8db8ba2.apps.googleusercontent.com</string>
+	<string>711638673538-5jb76squqt09qnhgeaf2aj629sa7j44m.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.687700381212-mjtdc5mvpr26l0tfftd5634sb8db8ba2</string>
+	<string>com.googleusercontent.apps.711638673538-5jb76squqt09qnhgeaf2aj629sa7j44m</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAlmxhaOdQrVyAjhRu5XqW2K7mZ7biFlm4</string>
+	<string>AIzaSyALIrKY1qLty0eognqQ-GAWQ5S4okc3EDk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>687700381212</string>
+	<string>711638673538</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.angelosannino.NSMForms</string>
+	<string>com.angelo.sannino.NSM</string>
 	<key>PROJECT_ID</key>
-	<string>nsm-forms</string>
+	<string>nsm-app-295cf</string>
 	<key>STORAGE_BUCKET</key>
-	<string>nsm-forms.appspot.com</string>
+	<string>nsm-app-295cf.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:687700381212:ios:eebc7f18bf0a58ff9a19d9</string>
+	<string>1:711638673538:ios:18b79736013e75943b2c9b</string>
 </dict>
 </plist>

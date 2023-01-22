@@ -33,7 +33,6 @@
 		7952C61F297DB00D007FA791 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7952C621297DB00D007FA791 /* Localizable.strings */; };
 		7952C625297DB070007FA791 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7952C627297DB070007FA791 /* InfoPlist.strings */; };
 		7952C62A297DB0B4007FA791 /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C629297DB0B4007FA791 /* LinkButton.swift */; };
-		7952C62C297DB134007FA791 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7952C62B297DB134007FA791 /* GoogleService-Info.plist */; };
 		7952C62E297DDE70007FA791 /* User+Firestoreable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C62D297DDE70007FA791 /* User+Firestoreable.swift */; };
 		7952C630297DDE83007FA791 /* LinkButton+Firestoreable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C62F297DDE83007FA791 /* LinkButton+Firestoreable.swift */; };
 		7952C632297DDEAF007FA791 /* FirebaseAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C631297DDEAF007FA791 /* FirebaseAuthProvider.swift */; };
@@ -43,6 +42,8 @@
 		7952C63B297DE0AE007FA791 /* FirestoreCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C63A297DE0AE007FA791 /* FirestoreCollections.swift */; };
 		7952C63D297DE1CE007FA791 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C63C297DE1CE007FA791 /* ServiceProvider.swift */; };
 		7952C63F297DE1F5007FA791 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C63E297DE1F5007FA791 /* ServiceError.swift */; };
+		7952C641297DE5B8007FA791 /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952C640297DE5B8007FA791 /* ViewFactory.swift */; };
+		7952C644297DEA28007FA791 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7952C643297DEA28007FA791 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,7 +73,6 @@
 		7952C626297DB070007FA791 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7952C628297DB075007FA791 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7952C629297DB0B4007FA791 /* LinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
-		7952C62B297DB134007FA791 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7952C62D297DDE70007FA791 /* User+Firestoreable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Firestoreable.swift"; sourceTree = "<group>"; };
 		7952C62F297DDE83007FA791 /* LinkButton+Firestoreable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkButton+Firestoreable.swift"; sourceTree = "<group>"; };
 		7952C631297DDEAF007FA791 /* FirebaseAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthProvider.swift; sourceTree = "<group>"; };
@@ -82,6 +82,9 @@
 		7952C63A297DE0AE007FA791 /* FirestoreCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreCollections.swift; sourceTree = "<group>"; };
 		7952C63C297DE1CE007FA791 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		7952C63E297DE1F5007FA791 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		7952C640297DE5B8007FA791 /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
+		7952C642297DE8E9007FA791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7952C643297DEA28007FA791 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +120,15 @@
 		7952C5D9297D8910007FA791 /* NSM */ = {
 			isa = PBXGroup;
 			children = (
+				7952C642297DE8E9007FA791 /* Info.plist */,
 				7952C5F1297DA886007FA791 /* Application */,
 				7952C5F2297DA89D007FA791 /* Modules */,
 				7952C5FB297DAA03007FA791 /* Models */,
 				7952C5F6297DA9A7007FA791 /* Networking */,
 				7952C5FE297DAAEC007FA791 /* Helpers */,
 				7952C61A297DAF77007FA791 /* Localization */,
+				7952C643297DEA28007FA791 /* GoogleService-Info.plist */,
 				7952C5DE297D8912007FA791 /* Assets.xcassets */,
-				7952C62B297DB134007FA791 /* GoogleService-Info.plist */,
 				7952C5E0297D8912007FA791 /* Preview Content */,
 			);
 			path = NSM;
@@ -142,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				7952C5DA297D8910007FA791 /* NSMApp.swift */,
+				7952C640297DE5B8007FA791 /* ViewFactory.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -335,7 +340,7 @@
 			files = (
 				7952C5E2297D8912007FA791 /* Preview Assets.xcassets in Resources */,
 				7952C625297DB070007FA791 /* InfoPlist.strings in Resources */,
-				7952C62C297DB134007FA791 /* GoogleService-Info.plist in Resources */,
+				7952C644297DEA28007FA791 /* GoogleService-Info.plist in Resources */,
 				7952C61F297DB00D007FA791 /* Localizable.strings in Resources */,
 				7952C5DF297D8912007FA791 /* Assets.xcassets in Resources */,
 			);
@@ -369,6 +374,7 @@
 				7952C5DB297D8910007FA791 /* NSMApp.swift in Sources */,
 				7952C617297DAF1B007FA791 /* StringFormatter.swift in Sources */,
 				7952C5FD297DAA20007FA791 /* User.swift in Sources */,
+				7952C641297DE5B8007FA791 /* ViewFactory.swift in Sources */,
 				7952C5F5297DA8BB007FA791 /* LoginViewModel.swift in Sources */,
 				7952C63D297DE1CE007FA791 /* ServiceProvider.swift in Sources */,
 				7952C630297DDE83007FA791 /* LinkButton+Firestoreable.swift in Sources */,
@@ -530,7 +536,7 @@
 				DEVELOPMENT_TEAM = YY7XZ88R9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = NSM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -559,7 +565,7 @@
 				DEVELOPMENT_TEAM = YY7XZ88R9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = NSM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -25,6 +25,12 @@ struct ServiceProvider: ServiceProviderProtocol {
     private var firestore: FirestoreProviderProtocol?
     private var authorization: FirebaseAuthProviderProtocol?
 
+    init(firestore: FirestoreProviderProtocol,
+         authorization: FirebaseAuthProviderProtocol) {
+        self.firestore = firestore
+        self.authorization = authorization
+    }
+
     func login(_ details: LoginDetails) async -> Result<Void, Error> {
         await perform(authorization?.login, param: details)
     }
