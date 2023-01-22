@@ -1,17 +1,12 @@
-//
-//  NSMApp.swift
-//  NSM
-//
-//  Created by Angelo Sannino on 22/01/23.
-//
-
 import SwiftUI
 
 @main
 struct NSMApp: App {
+    @StateObject var viewModel = LoginViewModel()
+
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            LoginView(viewModel: viewModel)
         }
     }
 }

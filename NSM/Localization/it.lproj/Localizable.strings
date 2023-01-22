@@ -1,0 +1,101 @@
+// MARK: - Labels
+
+"user.login" = "Accesso Utente";
+"email" = "Email";
+"username" = "Nome utente";
+"password" = "Password";
+"name" = "Nome";
+"type" = "Tipo";
+"surname" = "Cognome";
+"title" = "Titolo";
+"icon" = "Icona";
+"link" = "Link";
+"hello" = "Ciao";
+"settings_label" = "Impostazioni";
+"users_label" = "Utenti";
+"buttons_label" = "Bottoni";
+"add.new.user" = "Aggiungi Utente";
+"edit.user" = "Modifica Utente";
+"add.new.button" = "Aggiungi Bottone";
+"edit.button" = "Modifica Bottone";
+"allowed.buttons" = "Bottoni disponibili";
+"buttons.management" = "Gestione Bottoni";
+"available.for.user" = "Disponibile per l'utente";
+"available.buttons" = "Bottoni disponibili";
+"home" = "Home";
+"admin.tools" = "Strumenti Amministratore";
+"user.details" = "Dettaglio Utente";
+"button.details" = "Dettaglio Bottone";
+"selected.icon" = "Icona Selezionata";
+"pick.your.icon" = "SCEGLI LA TUA ICONA";
+"password.change" = "Cambio Password";
+"new.password" = "Nuova password";
+"repeat.password" = "Ripeti password";
+"password.reset.title" = "Reset della password";
+"password.reset.subtitle" = "Per favore, inserisci l'indirizzo email associato al tuo account";
+"forgotten.password" = "Password dimenticata?";
+"keep.me.signed.in" = "Accedi automaticamente";
+"nsm.contact.label" = "Se non hai un account o hai perso le tue credenziali d'accesso, per favore contatta il _**Team NSM**_ a: ";
+
+// MARK: - Buttons
+
+"login" = "Accedi";
+"logout" = "Esci";
+"change.password" = "Cambia password";
+"settings" = "Impostazioni";
+"back" = "Indietro";
+"add.button" = "Aggiungi Bottone";
+"add.user" = "Aggiungi Utente";
+"users_button" = "Utenti";
+"buttons_button" = "Bottoni";
+"cancel" = "Annulla";
+"confirm" = "Conferma";
+"manage.buttons" = "Gestisci bottoni";
+"ok" = "Ok";
+"edit" = "Modifica";
+"delete" = "Elimina";
+
+// MARK: - Alerts
+
+"user.added.title" = "Creazione Utente";
+"user.added.message" = "Utente creato correttamente";
+"add.user.failure.title" = "Errore Creazione Utente";
+"add.user.failure.message" = "Impossibile creare l'utente";
+"user.edited.title" = "Modifica Utente";
+"user.edited.message" = "Utente modificato correttamente";
+"edit.user.failure.title" = "Errore Modifica Utente";
+"edit.user.failure.message" = "Impossibile modificare l'utente";
+"fill.in.all.fields" = "Per favore, riempi tutti i campi mancanti";
+"user.delete.error.title" = "Errore Eliminazione Utente";
+"user.delete.error.message" = "Impossibile eliminare l'utente: ";
+"user.delete.confirm.title" = "Conferma Eliminazione";
+"user.delete.confirm.message" = "Confermi di voler eliminare l'utente: ";
+"button.added.title" = "Creazione Bottone";
+"button.added.message" = "Bottone creato correttamente";
+"add.button.failure.title" = "Errore Creazione Bottone";
+"add.button.failure.message" = "Impossibile creare il bottone";
+"button.edited.title" = "Modifica Bottone";
+"button.edited.message" = "Bottone modificato correttamente";
+"edit.button.failure.title" = "Errore Modifica Bottone";
+"edit.button.failure.message" = "Impossibile modificare il bottone";
+"button.delete.error.title" = "Errore Eliminazione Bottone";
+"button.delete.error.message" = "Impossibile eliminare il bottone: ";
+"button.delete.confirm.title" = "Conferma Eliminazione";
+"button.delete.confirm.message" = "Confermi di voler eliminare il bottone: ";
+"password.updated.title" = "Modifica Password";
+"password.updated.message" = "Password modificata correttamente per: ";
+"password.update.error.title" = "Errore Modifica Password";
+"password.update.error.message" = "Impossibile modificare la passwowrd per: ";
+"password.reset.confirm.title" = "Reset della Password";
+"password.reset.confirm.message" = "Confermi di voler resettare la password per: ";
+"password.resetted.title" = "Controlla la tua email";
+"password.resetted.message" = "Abbiamo inviato un link per resettare la tua password a: ";
+"password.reset.failure.title" = "Errore Reset della Password";
+"password.reset.failure.message" = "Impossibile resettare la tua password, per favore riprova più tardi";
+"provide.valid.email.message" = "Per favore, inserisci un indirizzo email valido";
+
+// MARK: - User Types
+"admin" = "Admin";
+"employee" = "Impiegato";
+"customer" = "Cliente";
+"guest" = "Ospite";

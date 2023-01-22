@@ -1,0 +1,101 @@
+// MARK: - Labels
+
+"user.login" = "User Login";
+"email" = "Email";
+"username" = "Username";
+"password" = "Password";
+"name" = "Name";
+"type" = "Type";
+"surname" = "Surname";
+"title" = "Title";
+"icon" = "Icon";
+"link" = "Link";
+"hello" = "Hello";
+"settings_label" = "Settings";
+"users_label" = "Users";
+"buttons_label" = "Buttons";
+"add.new.user" = "Add New User";
+"edit.user" = "Edit User";
+"add.new.button" = "Add New Button";
+"edit.button" = "Edit Button";
+"allowed.buttons" = "Allowed buttons";
+"buttons.management" = "Buttons Management";
+"available.for.user" = "Available for user";
+"available.buttons" = "Available buttons";
+"home" = "Home";
+"admin.tools" = "Admin Tools";
+"user.details" = "User Details";
+"button.details" = "Button Details";
+"selected.icon" = "Selected Icon";
+"pick.your.icon" = "PICK YOUR ICON";
+"password.change" = "Password Change";
+"new.password" = "New password";
+"repeat.password" = "Repeat password";
+"password.reset.title" = "Password Reset";
+"password.reset.subtitle" = "Please, insert the email address associated to your account";
+"forgotten.password" = "Password forgotten?";
+"keep.me.signed.in" = "Keep me signed in";
+"nsm.contact.label" = "If you don't have an account or have lost your login details, please contact _**NSM Team**_ at: ";
+
+// MARK: - Buttons
+
+"login" = "Login";
+"logout" = "Logout";
+"change.password" = "Change password";
+"settings" = "Settings";
+"back" = "Back";
+"add.button" = "Add Button";
+"add.user" = "Add User";
+"users_button" = "Users";
+"buttons_button" = "Buttons";
+"cancel" = "Cancel";
+"confirm" = "Confirm";
+"manage.buttons" = "Manage buttons";
+"ok" = "Ok";
+"edit" = "Edit";
+"delete" = "Delete";
+
+// MARK: - Alerts
+
+"user.added.title" = "Add User";
+"user.added.message" = "Successfully added user";
+"add.user.failure.title" = "Add User Error";
+"add.user.failure.message" = "Failed to add user";
+"user.edited.title" = "Edit User";
+"user.edited.message" = "Successfully edited user";
+"edit.user.failure.title" = "Edit User Error";
+"edit.user.failure.message" = "Failed to edit user";
+"fill.in.all.fields" = "Please, fill in all the missing fields";
+"user.delete.error.title" = "User Delete Error";
+"user.delete.error.message" = "Unable to delete user: ";
+"user.delete.confirm.title" = "Confirm User Deletion";
+"user.delete.confirm.message" = "Are you sure you want to delete user: ";
+"button.added.title" = "Add Button";
+"button.added.message" = "Successfully added button";
+"add.button.failure.title" = "Add Button Error";
+"add.button.failure.message" = "Failed to add button";
+"button.edited.title" = "Edit Button";
+"button.edited.message" = "Successfully edited button";
+"edit.button.failure.title" = "Edit Button Error";
+"edit.button.failure.message" = "Failed to edit button";
+"button.delete.error.title" = "Button Delete Error";
+"button.delete.error.message" = "Unable to delete button: ";
+"button.delete.confirm.title" = "Confirm Button Deletion";
+"button.delete.confirm.message" = "Are you sure you want to delete button: ";
+"password.updated.title" = "Password Update";
+"password.updated.message" = "Successfully update password for: ";
+"password.update.error.title" = "Password Update Error";
+"password.update.error.message" = "Unable to update password for: ";
+"password.reset.confirm.title" = "Password Reset";
+"password.reset.confirm.message" = "Are you sure you want to reset the password for: ";
+"password.resetted.title" = "Check your email";
+"password.resetted.message" = "We have sent a link to reset your password at: ";
+"password.reset.failure.title" = "Password Reset Error";
+"password.reset.failure.message" = "Unable to reset your password, please try again later";
+"provide.valid.email.message" = "Please, provide a valid email address";
+
+// MARK: - User Types
+"admin" = "Admin";
+"employee" = "Employee";
+"customer" = "Customer";
+"guest" = "Guest";
