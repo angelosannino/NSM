@@ -1,13 +1,8 @@
-//
-//  LoginView.swift
-//  NSM
-//
-//  Created by Angelo Sannino on 22/01/23.
-//
-
 import SwiftUI
 
 struct LoginView: View {
+    @StateObject var viewModel: LoginViewModel
+
     var body: some View {
         Text("Hello, World!")
     }
@@ -15,6 +10,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginView(viewModel: .sample)
     }
 }
